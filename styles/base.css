@@ -141,6 +141,7 @@ footer {
     text-align: center;
     color: var(--white);
     padding: 0.5rem;
+    font-weight: bold;
 }
 
 footer p:last-child {
