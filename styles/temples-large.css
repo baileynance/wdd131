@@ -1,0 +1,28 @@
+@media (min-width: 740px) {
+    header button {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    h1 {
+        margin: 1rem 0rem;
+    }
+
+    #container {
+        margin: 1rem 0rem;
+    }
+}
