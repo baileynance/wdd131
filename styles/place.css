@@ -1,0 +1,130 @@
+/* Main Supplementary Color: #FE5F55 */
+/* Secondary Supplementary Color: #EEF5DB */
+/* Alternative Color: #4F6367 */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --mainthemecolor: #DA121A;
+    --supplementarythemecolor: #EEF5DB;
+    --alternativethemecolor: #008F4C;
+    --white: #FFFFFF;
+    --black: #0E1B1B;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Raleway", sans-serif;
+    color: var(--white);
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------ */
+/* Header */
+/* ------------------------------ */
+
+header {
+    background-color: var(--mainthemecolor);
+    border-bottom: 1rem solid var(--alternativethemecolor);
+}
+
+header h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 4rem;
+}
+
+/* ------------------------------ */
+/* Main */
+/* ------------------------------ */
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative
+}
+
+#data, #weather {
+    position: absolute;
+    background-color: var(--white);
+    margin: 0;
+}
+
+#data h2, #weather h2 {
+    background-color: var(--alternativethemecolor);
+    padding: 1rem;
+}
+
+#data div, #weather div {
+    padding: 1rem;
+}
+
+#data {
+    top: 14rem;
+    left: 4rem;
+}
+
+#weather {
+    bottom: -10rem;
+    right: 4rem;
+}
+
+/* ------------------------------ */
+/* Footer */
+/* ------------------------------ */
+
+footer {
+    background-color: var(--mainthemecolor);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    font-size: 1rem;
+    margin-top: -1rem;
+}
+
+@media screen and (min-width: 500px) {
+    #weather h2::after {
+        content: " ☼";
+    }
+
+    #weather-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #data, #weather {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    #data h2, #weather h2 {
+        background-color: var(--white);
+        color: var(--black);
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    #weather-icon {
+        height: 4rem;
+    }
+}
