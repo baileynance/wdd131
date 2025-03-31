@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Filtered Temple Picture Album</title>
+    <meta name="description" content="WDD 131 Assignment 4 - Filtered Temple Picture Album responsive design activity">
+    <meta name="author" content="Bailey Nance">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Temple Album</h1>
+            <button id="hamburger">☰</button>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="temples.html">Home</a></li>
+                <li><a href="temples.html">Old</a></li>
+                <li><a href="temples.html">New</a></li>
+                <li><a href="temples.html">Large</a></li>
+                <li><a href="temples.html">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div id="filter-buttons">
+            <button id="home-filter">Home</button>
+            <button id="old-filter">Old</button>
+            <button id="new-filter">New</button>
+            <button id="small-filter">Small</button>
+            <button id="large-filter">Large</button>
+        </div>
+        <ul id="container"></ul>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Bailey Nance | Oregon</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/filtered-temples.js" defer></script>
+</body>
+</html>
