@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --lightblue: #d8edff;
+    --blue: #5c8ec1;
+    --darkblue: #0e3e6e;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Raleway", sans-serif;
+    color: var(--white);
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* --------------------------- */
+/* Header */
+/* --------------------------- */
+
+header {
+    background-color: var(--blue);
+    text-align: center;
+}
+
+header h1 {
+    padding: 2rem;
+}
+
+/* --------------------------- */
+/* Main */
+/* --------------------------- */
+
+form {
+    margin: 1rem 30%;
+    padding: 0rem 1.5rem;
+    background-color: var(--lightblue);
+    border: 1px solid var(--black);
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],    
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+}
+
+form > div, #button {
+    margin: 1rem 0;
+}
+
+#product-name,
+#date,
+#your-name {
+    height: 2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.radio-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+}
+
+#features label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+#button {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.optional {
+    color: var(--darkblue);
+}
+
+/* --------------------------- */
+/* Footer */
+/* --------------------------- */
+
+footer {
+    background-color: var(--blue);
+    text-align: center;
+    color: var(--white);
+    padding: 0.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+@media (max-width: 800px) {
+    form {
+        margin: 1rem 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    form {
+        margin: 1rem 10%;
+    }
+}
