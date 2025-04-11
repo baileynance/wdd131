@@ -14,7 +14,21 @@ async function getAnime() {
 
 getAnime();
 
-const random = document.getElementById("random");
-random.addEventListener("click", function() {
-  const randomNumber = Math.floor(Math.random() * 100) + 1;
+// Button for Generator
+const random = document.getElementById("random-anime");
+const button = document.getElementById("random-button");
+button.addEventListener("click", function() {
+    const randomIndex = Math.floor(Math.random() * animeData.length);
+    const randomItem = animeData[randomIndex];
+    random.innerHTML = "";
+    random.innerHTML = `
+        <h3>${randomItem.name}</h3>
+        <a href="${randomItem.url}" target="_blank"><img src="${randomItem.image}" alt="${randomItem.alt}"></a>
+        <div>
+            <p>${randomItem.rating} &starf;</p>
+            <p>${randomItem.seasons} Season(s)</p>
+            <p>${randomItem.episodes} Episodes</p>
+        </div>
+        <p>${randomItem.synopsis}</p>
+    `;
 });
