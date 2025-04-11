@@ -1,0 +1,101 @@
+[
+    {
+        "name": "One Piece",
+        "seasons": 28,
+        "episodes": 1376,
+        "genres": ["action", "adventure", "fantasy", "comedy"],
+        "rating": 4.8,
+        "synopsis": "Monkey D. Luffy refuses to let anyone or anything stand in the way of his quest to become King of the Pirates. With his rubber-like stretching powers granted by the supernatural Devil Fruit, the spirited young pirate seeks the legendary treasure known as the One Piece. He’ll chart a course for the treacherous waters of the Grand Line and recruit a motley crew to build his Straw Hat Pirates one bond at a time. This is one captain who’ll never drop anchor until he and his friends all reach their dreams!",
+        "image": "./images/one-piece.webp",
+        "alt": "One Piece Image",
+        "url": "https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece"
+    },
+    {
+        "name": "Naruto",
+        "seasons": 9,
+        "episodes": 220,
+        "genres": ["action", "adventure", "fantasy", "comedy"],
+        "rating": 4.7,
+        "synopsis": "The Village Hidden in the Leaves is home to the stealthiest ninja. But twelve years earlier, a fearsome Nine-tailed Fox terrorized the village before it was subdued and its spirit sealed within the body of a baby boy.",
+        "image": "./images/naruto.webp",
+        "alt": "Naruto Image",
+        "url": "https://www.crunchyroll.com/series/GY9PJ5KWR/naruto"
+    },
+    {
+        "name": "Code Geass",
+        "seasons": 3,
+        "episodes": 54,
+        "genres": ["action", "drama", "sci-fi"],
+        "rating": 4.9,
+        "synopsis": "The year is 2017 of the Imperial calendar and parts of the world are under the control of the Holy Britannian Empire. Lelouch Lamperouge, an exiled Britannian prince, encounters a strange girl known as C.C., who gifts him with a great and terrible power. The Geass. With this powerful ability, Lelouch can get anyone to do as he wills. But the power of Geass: is it a blessing…or a curse?",
+        "image": "./images/code-geass.webp",
+        "alt": "Code Geass Image",
+        "url": "https://www.crunchyroll.com/series/GY2P9ED0Y/code-geass"
+    },
+    {
+        "name": "Dragonball Z",
+        "seasons": 1,
+        "episodes": 291,
+        "genres": ["action", "adventure", "comedy"],
+        "rating": 4.8,
+        "synopsis": "Goku—the strongest fighter on the planet—is all that stands between humanity and villains from the darkest corners of space. Joined in battle by the Z-Fighters, Goku travels to distant realms in search of the magic powers of the seven Dragon Balls!",
+        "image": "./images/dragonball.webp",
+        "alt": "Dragonball Z Image",
+        "url": "https://www.crunchyroll.com/series/G9VHN9PPW/dragon-ball-z"
+    },
+    {
+        "name": "Fullmetal Alchemist: Brotherhood",
+        "seasons": 1,
+        "episodes": 64,
+        "genres": ["action", "fantasy", "comedy"],
+        "rating": 4.9,
+        "synopsis": "Disregard for alchemy's laws ripped half of Ed Elric's limbs from his body and left Al's soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher's Stone. Enemies and allies - the corrupt military, the Homunculi, and foreign alchemists - will alter the Elric's course, but their purpose will remain unchanged and their bond unbreakable",
+        "image": "./images/fullmetal-alchemist.webp",
+        "alt": "Fullmetal Alchemist: Brotherhood Image",
+        "url": "https://www.crunchyroll.com/series/GRGGPG93R/fullmetal-alchemist-brotherhood"
+    },
+    {
+        "name": "Hunter x Hunter",
+        "seasons": 1,
+        "episodes": 148,
+        "genres": ["action", "adventure", "fantasy"],
+        "rating": 4.9,
+        "synopsis": "Gon, a young boy who lives on Whale Island, dreams of becoming a Hunter like his father, who left when Gon was still young.",
+        "image": "./images/hunter-hunter.webp",
+        "alt": "Hunter x Hunter Image",
+        "url": "https://www.crunchyroll.com/series/GY3VKX1MR/hunter-x-hunter"
+    },
+    {
+        "name": "JuJutsu Kaisen",
+        "seasons": 3,
+        "episodes": 48,
+        "genres": ["action", "supernatural"],
+        "rating": 4.9,
+        "synopsis": "Yuji Itadori eats a cursed finger to save a classmate, and now Ryomen Sukuna, a powerfully evil sorcerer known as the King of Curses, lives in Itadori’s soul. Curses are supernatural terrors created from negative human emotions. This cursed energy can be used as a power source by jujutsu sorcerers and cursed spirits alike.",
+        "image": "./images/jujutsu-kaisen.webp",
+        "alt": "Jujutsu Kaisen Image",
+        "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
+    },
+    {
+        "name": "Solo Leveling",
+        "seasons": 2,
+        "episodes": 26,
+        "genres": ["action", "adventure", "fantasy"],
+        "rating": 4.9,
+        "synopsis": "They say whatever doesn't kill you makes you stronger, but that's not the case for the world's weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that’s leveling him up in every way. Now, he's inspired to discover the secrets behind his powers and the dungeon that spawned them.",
+        "image": "./images/solo-leveling.webp",
+        "alt": "Solo Leveling Image",
+        "url": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling"
+    },
+    {
+        "name": "Vinland Saga",
+        "seasons": 2,
+        "episodes": 48,
+        "genres": ["action", "adventure", "fantasy"],
+        "rating": 4.8,
+        "synopsis": "Around the end of the millennium, Viking, the mightiest but atrocious tribe, had been out breaking everywhere. Thorfinn, the son of the greatest warrior, lived his childhood in the battlefield. He was seeking the land of reverie called Vinland. This is the story of a true warrior in an age of turmoil.",
+        "image": "./images/vinland-saga.webp",
+        "alt": "Vinland Saga Image",
+        "url": "https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga"
+    }
+]
