@@ -47,9 +47,23 @@ header h1 {
     margin-left: 1rem;
 }
 
+#welcome {
+    right: 1rem;
+    position: absolute;
+    top: 1rem;
+    color: var(--white);
+}
+
+#clear {
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: none;
+}
+
 header nav {
     display: block;
     background-color: var(--black);
+    padding: 1rem;
 }
 
 #nav-list {
@@ -65,7 +79,7 @@ header nav {
 }
 
 #nav-list li a:hover {
-    color: var(--red);
+    color: var(--yellow);
 }
 
 /* ------------------------------------------------- */
@@ -76,13 +90,98 @@ header nav {
 /* Browse */
 /* ------------------------------------------------- */
 
+.browse h2,
+.browse label {
+    margin: 1rem 6%;
+}
+
+#anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem 5%;
+    list-style: none;
+}
+
+#anime-list li {
+    padding: 1rem;
+}
+
+#anime-list li:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#anime-list li img {
+    max-width: 500px;
+    width: 100%;
+}
+
 /* ------------------------------------------------- */
 /* Generate */
 /* ------------------------------------------------- */
 
+.generate {
+    text-align: center;
+}
+
+#random-anime {
+    margin: 1rem auto;
+    width: 30%;
+}
+
+#random-anime img {
+    max-width: 500px;
+    width: 100%;
+}
+
 /* ------------------------------------------------- */
 /* Join */
 /* ------------------------------------------------- */
+
+.join h2 {
+    margin: 1.5rem 20% 1rem 20%;
+}
+
+#form {
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    background-color: var(--yellow);
+    margin: 1rem 20% 2rem 20%;
+}
+
+#form label {
+    color: var(--black);
+}
+
+#form input{
+    display: block;
+    width: 98%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 0.2rem;
+}
+
+#form div {
+    margin: 1rem;
+}
+
+#form button {
+    display: block;
+    width: 96%;
+    margin: 1.5rem auto;
+    height: 2rem;
+    background-color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    color: var(--white);
+}
+
+#button:active {
+    background-color: var(--white);
+    color: var(--black);
+}
 
 /* ------------------------------------------------- */
 /* Footer */
@@ -109,6 +208,31 @@ footer ul {
     nav {
         display: flex;
     }
+
+    /* Browse */
+
+    .browse h2, 
+    .browse label {
+        margin: 1rem 8%;
+    }
+
+    #anime-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 1rem 7%;
+        list-style: none;
+    }
+
+    /* Join */
+
+    .join h2 {
+        margin: 1.5rem 15% 1rem 15%;
+    }
+
+    #form {
+        margin: 1rem 15% 2rem 15%;
+    }
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -120,5 +244,29 @@ footer ul {
 @media screen and (max-width: 640px) {
     nav {
         display: flex;
+    }
+
+    /* Browse */
+
+    .browse h2,
+    .browse label {
+        margin: 1rem 11%;
+    }
+
+    #anime-list {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 10%;
+        list-style: none;
+    }
+
+    /* Join */
+
+    .join h2 {
+        margin: 1.5rem 10% 1rem 10%;
+    }
+
+    #form {
+        margin: 1rem 10% 2rem 10%;
     }
 }

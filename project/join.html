@@ -14,9 +14,38 @@
 </head>
 <body>
     <header></header>
-    <main>
+    <main class="join">
+        <h2>Join Randimé!</h2>
+        <form method="GET" action="index.html" id="form">
+            <!-- First Name -->
+            <div>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+
+            <!-- Last Name -->
+            <div>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Password -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+        
+            <!-- Submit Button -->
+            <button type="submit" id="join-button">JOIN</button>
+        </form>
     </main>
     <footer></footer>
-    <script type="module" src="scripts/index.mjs" defer></script>
+    <script type="module" src="scripts/join.js" defer></script>
 </body>
 </html>

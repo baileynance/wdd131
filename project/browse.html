@@ -15,9 +15,19 @@
 </head>
 <body>
     <header></header>
-    <main>
+    <main class="browse">
+        <h2>Browse Anime</h2>
+        <label for="sort">Sort
+            <select id="sort">
+                <option value="" disabled selected>Select a Category</option>
+                <option value="alphabetical">Alphabetical</option>
+                <option value="longest">Longest</option>
+                <option value="shortest">Shortest</option>
+            </select>
+        </label>
+        <ul id="anime-list"></ul>
     </main>
     <footer></footer>
-    <script type="module" src="scripts/index.mjs" defer></script>
+    <script type="module" src="scripts/browse.mjs" defer></script>
 </body>
 </html>

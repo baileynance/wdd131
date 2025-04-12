@@ -1,8 +1,9 @@
-import { createHeader } from './header.js';
+import { createHeader, welcomeMessage } from './header.js';
 import { createFooter } from './footer.js';
 
 createHeader();
 createFooter();
+welcomeMessage();
 
 let animeData = [];
 
