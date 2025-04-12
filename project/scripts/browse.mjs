@@ -24,7 +24,7 @@ const displayAnime = (data) => {
         let li = document.createElement("li");
         li.innerHTML = `
         <h3>${anime.name}</h3>
-        <a href="${anime.url}" target="_blank"><img src="${anime.image}" alt="${anime.alt}"></a>
+        <a href="${anime.url}" target="_blank" loading="lazy"><img src="${anime.image}" alt="${anime.alt}"></a>
         <div>
             <p>${anime.rating} &starf;</p>
             <p>${anime.seasons} Season(s)</p>

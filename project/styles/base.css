@@ -122,18 +122,43 @@ header nav {
 /* Generate */
 /* ------------------------------------------------- */
 
-.generate {
+.generate-title {
+    margin: 3rem auto;
     text-align: center;
+}
+
+.generate-title button {
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
 }
 
 #random-anime {
     margin: 1rem auto;
-    width: 30%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+#random-anime div {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+#random-anime p, #randim-anime h3 {
+    margin: 0.5rem 0;
 }
 
 #random-anime img {
-    max-width: 500px;
+    max-width: 250px;
     width: 100%;
+    grid-column: 2/3;
 }
 
 /* ------------------------------------------------- */
@@ -209,6 +234,16 @@ footer ul {
         display: flex;
     }
 
+    /* Generate */
+
+    #random-anime {
+        width: 80%;
+    }
+
+    #random-anime img {
+        max-width: 250px;
+    }
+
     /* Browse */
 
     .browse h2, 
@@ -244,6 +279,20 @@ footer ul {
 @media screen and (max-width: 640px) {
     nav {
         display: flex;
+    }
+
+    /* Generate */
+
+    #random-anime {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #random-anime img {
+        display: flex;
+        justify-self: center;
+        max-width: 500px;
     }
 
     /* Browse */

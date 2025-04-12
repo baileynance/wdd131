@@ -23,13 +23,13 @@ button.addEventListener("click", function() {
     const randomItem = animeData[randomIndex];
     random.innerHTML = "";
     random.innerHTML = `
-        <h3>${randomItem.name}</h3>
-        <a href="${randomItem.url}" target="_blank"><img src="${randomItem.image}" alt="${randomItem.alt}"></a>
         <div>
+            <h3>${randomItem.name}</h3>
             <p>${randomItem.rating} &starf;</p>
             <p>${randomItem.seasons} Season(s)</p>
             <p>${randomItem.episodes} Episodes</p>
+            <p>${randomItem.synopsis}</p>
         </div>
-        <p>${randomItem.synopsis}</p>
+        <a href="${randomItem.url}" target="_blank" loading="lazy"><img src="${randomItem.image}" alt="${randomItem.alt}"></a>
     `;
 });
