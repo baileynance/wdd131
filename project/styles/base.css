@@ -86,6 +86,25 @@ header nav {
 /* Home */
 /* ------------------------------------------------- */
 
+.home h2 {
+    text-align: center;
+}
+
+#trending, #most-popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 2rem 5%;
+    list-style: none;
+    text-align: center;
+}
+
+#trending img,
+#most-popular img {
+    max-width: 250px;
+    width: 100%;
+}
+
 /* ------------------------------------------------- */
 /* Browse */
 /* ------------------------------------------------- */
@@ -215,12 +234,23 @@ header nav {
 footer {
     background-color: var(--red);
     color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
 }
 
-footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
+footer div {
+    text-align: center;
+}
+
+footer div a {
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer div p, footer div a {
+    margin: 0.8rem 0;
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -277,8 +307,42 @@ footer ul {
 /* --------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 640px) {
-    nav {
+    
+    header div {
         display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    header div h1 {
+        margin: 1rem 0 0.5rem 0;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 1rem;
+    }
+
+    /* Index */
+
+    #trending,
+    #most-popular {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 10%;
+        list-style: none;
+        text-align: center;
+    }
+
+    #trending img,
+    #most-popular img {
+        max-width: 400px;
+        width: 100%;
     }
 
     /* Generate */
