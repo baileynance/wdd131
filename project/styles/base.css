@@ -90,6 +90,13 @@ header nav {
     text-align: center;
 }
 
+.hero-image {
+    width: 100%;
+    max-width: 1500px;
+    object-fit: cover;
+    margin-bottom: 3rem;
+}
+
 #trending, #most-popular {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -167,7 +174,6 @@ header nav {
 #random-anime div {
     display: flex;
     flex-direction: column;
-    justify-content: top;
 }
 
 #random-anime p, #randim-anime h3 {
@@ -381,5 +387,11 @@ footer div p, footer div a {
 
     #form {
         margin: 1rem 10% 2rem 10%;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 }
